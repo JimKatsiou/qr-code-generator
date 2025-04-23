@@ -14,43 +14,35 @@ This is a simple web-based QR Code Generator built with **PHP**, **Bootstrap 5**
 
 > *Add a screenshot of the app here if you like.*
 
-## ✨ Usage
-Enter your text or URL.
-
-Click "Generate QR Code".
-
-The generated QR code will appear below the form.
-
-## 🧩 Dependencies
-PHP 7.4+
-Composer
-Bootstrap 5
-Endroid QR Code
-
-## 📄 License
-This project is licensed under the MIT License.
-
-## 👨‍💻 Author
-Created by Jim Katsiou
-
-Feel free to contribute or suggest features!
 
 ## 🛠️ Installation
 
 1. **Clone the repository**
 
-```bash
-git clone https://github.com/JimKatsiou/qr-code-generator.git
-cd qr-code-generator
-```bash
+   ```bash
+   git clone https://github.com/JimKatsiou/qr-code-generator.git
+   cd qr-code-generator
 
-2. **Install dependencies with Composer**
-```bash
-composer install
-```bash
 
-3. ** Ensure GD extension is enabled in your PHP config **
-Open your php.ini file and make sure this line is uncommented:
-extension=gd
+## ✨ Usage
 
-4. **Run on localhost**
+1. Enter your text or URL.
+2. Click **"Generate QR Code"**.
+3. The generated QR code will appear below the form.
+
+## 🧩 Dependencies
+
+- PHP 7.4+
+- Composer
+- Bootstrap 5
+- Endroid QR Code
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+Created by [Jim Katsiou](https://github.com/JimKatsiou)
+
+Feel free to contribute or suggest features!
