@@ -11,8 +11,7 @@ This is a simple web-based QR Code Generator built with **PHP**, **Bootstrap 5**
 - Easy to customize and extend.
 
 ## 📸 Screenshot
-
-> *Add a screenshot of the app here if you like.*
+![image](https://github.com/user-attachments/assets/2efa0013-1bd2-4085-8e5b-041fab9dd0a2)
 
 
 ## 🛠️ Installation
@@ -22,6 +21,23 @@ This is a simple web-based QR Code Generator built with **PHP**, **Bootstrap 5**
    ```bash
    git clone https://github.com/JimKatsiou/qr-code-generator.git
    cd qr-code-generator
+   
+2. **Install dependencies with Composer**
+   ```bash
+   composer install   
+3. **Ensure GD extension is enabled in your PHP config**
+Open your php.ini file and make sure the following line is uncommented (no semicolon at the start):
+    ```bash
+   extension=gd
+Then restart your local server (Apache or Nginx).
+
+4. **Create a temp folder**
+This folder will store generated QR code images:
+    ```bash
+   mkdir temp
+   chmod 755 temp
+
+5. **Run on localhost**
 
 
 ## ✨ Usage
