@@ -31,23 +31,23 @@ extension=gd
 
 4. **Run on localhost**
 
-✨ Usage
+## ✨ Usage
 Enter your text or URL.
 
 Click "Generate QR Code".
 
 The generated QR code will appear below the form.
 
-🧩 Dependencies
+## 🧩 Dependencies
 PHP 7.4+
 Composer
 Bootstrap 5
 Endroid QR Code
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License.
 
-👨‍💻 Author
+## 👨‍💻 Author
 Created by Jim Katsiou
 
 Feel free to contribute or suggest features!
